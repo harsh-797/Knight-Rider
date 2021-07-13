@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.input{
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.output{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.input h3{
+    margin: 15px 0;
+    color: #fff;
+    text-align: right;
+}
+.output h3{
+    margin: 15px 0;
+    color: #fff;
+    text-align: right;
+}
+#Icircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #ccc;
+}
+#Ocircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #ccc;
+}
+.Iposition img{
+    width: 30px;
+}
+.Oposition img{
+    width: 30px;
+}
+.Iposition{
+    position: absolute;
+    color: #fff;
+}
+.Oposition{
+    position: absolute;
+    color: #fff;
+}
+.Icharacter{
+    top: 30px;
+    left: 50px;
+}
+.Ocharacter{
+    top: 30px;
+    left: 50px;
+}
+.Inumber{
+    top: 30px;
+    right: 50px;
+}
+.Onumber{
+    top: 30px;
+    right: 50px;
+}
+#startingposition{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    color: green;
+    text-align: center;
+}
+#endingposition{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    color: green;
+    text-align: center;
+}
+#IupBtn{
+    width: 15px; 
+    cursor: pointer;
+}
+#OupBtn{
+    width: 15px; 
+    cursor: pointer;
+}
+#IdownBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+#OdownBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+#find{
+    position: absolute;
+    left: 1150px;
+    top: 500px;
+    font-size: 20px;
+}
+#answer{
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+}
